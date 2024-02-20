@@ -39,36 +39,8 @@ form .form-control{
        border-radius: 5px;
    }
    
-       
-   #footer{
-    text-align: center; 
-    text-decoration: none;
-    background: rgb(132, 125, 125);
-   
-    .btn{
-        display: inline-block;
-        font-size: 15px;
-        padding: 10px 45px;
-        font-size: 15px;
-        border-radius: 5px;
-        color: black;
-        cursor: pointer;
-        text-decoration: none;
-    }
-    .parrafo-footer{
-        text-align: center;
-        text-decoration:none;
-        color: black;
-    }
-}
-
-
-
-
-
-
-
 
 
 @import "_mq-tablet.scss";
-@import "_mq-desktop.scss"
+@import "_mq-desktop.scss";
+@import "_mq-mobie.scss";

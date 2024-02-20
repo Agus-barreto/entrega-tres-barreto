@@ -1,9 +1,10 @@
+@import "../utilidades/variables";
 /*Comienza Informacion*/
 
     #presupuesto{
         height: 100vh;
-        background: black;
-        color: white;
+        background: $background-universal-b;
+        color: $color-tipografia-w;
     }
     .Encargo-demora-bk{
         float: left;
@@ -35,11 +36,11 @@
     .text-titulo{
         float: left;
         width: 50%;
-        background: black;
-        color: white;
+        background: $background-universal-b;
+        color: $color-tipografia-w;
         height: 100vh;
         text-align: center;
-        padding: 200px 160px;
+       
     }
     
     .work-title h4{
@@ -47,8 +48,8 @@
     }
     
     .pago-text{
-        background: black;
-        color: white;
+        background: $background-universal-b;
+        color: $color-tipografia-w;
         float: right;
     }
     
@@ -60,50 +61,18 @@
     .text-informacion{
         float: left;
         width: 50%;
-        background: white;
-        color: black;
+        background: $background-universal-w;
+        color: $color-tipografia;
+        text-align: center;
         height: 100vh;
-        padding: 200px 160px;
     }
     .info-text{
-        background: white;
-        color: black;
+        background: $background-universal-w;
+        color: $color-tipografia-w;
         float: right; 
     }
     
     
-    #footer{
-        text-align: center; 
-        text-decoration: none;
-        list-style: none;
-        background: rgb(132, 125, 125);
-       
-        .btn{
-            display: inline-block;
-            font-size: 15px;
-            padding: 10px 45px;
-            font-size: 15px;
-            border-radius: 5px;
-            color: black;
-            cursor: pointer;
-            text-decoration: none;
-            
-        }
-        .parrafo-footer{
-            text-align: center;
-            text-decoration:none;
-            color: black;
-            list-style: none
-        }
-    }
-
-   
-    
-
-
-
-    
-
-
 @import "_mq-tablet.scss";
-@import "_mq-desktop.scss"
+@import "_mq-desktop.scss";
+@import "_mq-mobie.scss";

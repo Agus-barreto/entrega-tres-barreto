@@ -1,3 +1,6 @@
+@import "../utilidades/variables";
+
+//nesting
 /*Comienza stock*/
   img{
     width: 100%;
@@ -6,43 +9,43 @@
 
   #producto-stock{
     height: 100vh;
-    background: white;
+    background: $background-universal-w;
 }
 .imagen-stock-1{
     float: left;
     width: 100%;
-    background: white;
-    height: 100vh;
+    background: $background-universal-w;
+    height: 100%;
     text-align: center;
     padding: 200px 160px;
 }
 #productos-stock2{
     height: 100vh;
-    background: black;
+    background: $background-universal-b;
 }
 .imagen-stock-2{
     float: left;
     width: 100%;
-    background: black;
-    color: white;
-    height: 100vh;
+    background: $background-universal-b;
+    color: $color-tipografia-w;
+    height: 50%;
     padding: 200px 160px;
 }
 
 #productos-stock3{
     height: 100vh;
-    background: black;
+    background: $background-universal-b;
 }
 
 #productos-stock3{
     height: 100vh;
-    background: black;
+    background: $background-universal-b;
 }
 .imagen-stock-3{
     float: left;
     width: 100%;
-    background: black;
-    color: white;
+    background: $background-universal-b;
+    color: $color-tipografia-w;
     height: 100vh;
     padding: 200px 160px;
 }
@@ -50,35 +53,12 @@
 .imagen-stock-4{
     float: left;
     width: 100%;
-    background: white;
+    background: $background-universal-w;
     height: 100vh;
     padding: 100px 160px;
 }
 
 
-    #footer{
-        text-align: center; 
-        text-decoration: none;
-        background: rgb(132, 125, 125);
-       
-        .btn{
-            display: inline-block;
-            font-size: 15px;
-            padding: 10px 45px;
-            font-size: 15px;
-            border-radius: 5px;
-            color: black;
-            cursor: pointer;
-            text-decoration: none;
-        }
-        .parrafo-footer{
-            text-align: center;
-            text-decoration:none;
-            color: black;
-        }
-    }
-
-
-
 @import "_mq-tablet.scss";
-@import "_mq-desktop.scss"
+@import "_mq-desktop.scss";
+@import "_mq-mobie.scss";
