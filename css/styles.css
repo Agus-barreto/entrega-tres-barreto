@@ -12,7 +12,7 @@ body {
 
 /*comienza index */
 header {
-  background: url(/Users/agustinabarreto/Desktop/PROYECTO-2024/Proyecto/Img/img-potada-ob.jpg);
+  background: url(../Img/img-potada-ob.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
