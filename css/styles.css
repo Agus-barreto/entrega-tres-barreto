@@ -194,10 +194,10 @@ a {
     grid-template-rows: repeat(4, 25%);
   }
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-max: 150px) {
   .main {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 100%);
+    display: grid;
+    grid-template-columns: repeat(auto-fit);
   }
 }
 /*Comienza stock*/
@@ -273,10 +273,10 @@ img {
     grid-template-rows: repeat(4, 25%);
   }
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-max: 150px) {
   .main {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 100%);
+    display: grid;
+    grid-template-columns: repeat(auto-fit);
   }
 }
 /*Comienza catalogo*/
@@ -454,10 +454,10 @@ img {
     grid-template-rows: repeat(4, 25%);
   }
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-max: 150px) {
   .main {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 100%);
+    display: grid;
+    grid-template-columns: repeat(auto-fit);
   }
 }
 /*Comienza Informacion*/
@@ -542,10 +542,10 @@ img {
     grid-template-rows: repeat(4, 25%);
   }
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-max: 150px) {
   .main {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 100%);
+    display: grid;
+    grid-template-columns: repeat(auto-fit);
   }
 }
 /*Comienza Contacto */
@@ -600,10 +600,10 @@ form .form-control {
     grid-template-rows: repeat(4, 25%);
   }
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-max: 150px) {
   .main {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 100%);
+    display: grid;
+    grid-template-columns: repeat(auto-fit);
   }
 }
 

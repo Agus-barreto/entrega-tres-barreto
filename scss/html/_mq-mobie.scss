@@ -1,6 +1,6 @@
-@media screen and (min-width: 500px){
+@media screen and (min-max: 150px ){
     .main{
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: repeat(1, 100%);
+        display: grid;
+        grid-template-columns: repeat(auto-fit);
         }
     }
