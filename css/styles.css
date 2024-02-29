@@ -223,21 +223,6 @@ a {
   font-size: 10px;
 }
 
-@media screen and (min-width: 600px) {
-  .main {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 50%);
-  }
-  .boton-1 {
-    align-items: center;
-    padding-left: 50px;
-    padding-bottom: 5px;
-  }
-  .boton-2 {
-    align-items: center;
-    padding-left: 150px;
-  }
-}
 /*Comienza stock*/
 img {
   width: 100%;
@@ -256,7 +241,8 @@ img {
   float: left;
   width: 50%;
   background: white;
-  padding: 110px;
+  color: black;
+  padding: 100px;
 }
 
 .imagen-2 {
@@ -298,6 +284,11 @@ img {
 .parrafo {
   align-items: center;
   text-align: center;
+}
+
+.parrafo {
+  text-align: center;
+  padding: 50px 20px;
 }
 
 .img-catalogo {
@@ -464,11 +455,30 @@ img {
 }
 
 .boton-1 {
-  margin-left: 0;
+  padding: 20px;
+  padding-top: 55px;
 }
 
 .boton-2 {
-  margin-left: 20px;
+  padding: 20px;
+  padding-top: 50px;
+  margin-left: 8em;
+  padding-right: 70px;
+}
+
+.boton-3 {
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.boton-4 {
+  padding: 30px;
+  padding-top: 75px;
+}
+
+.boton-5 {
+  padding: 30px;
+  padding-top: 25px;
 }
 
 #presupuesto {
@@ -635,6 +645,48 @@ form .form-control {
     padding-left: 300px;
   }
 }
+.img-catalogo {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: repeat(3, 25%);
+  height: 100vh;
+}
+.img-catalogo img {
+  width: 100%;
+  height: 100%;
+  padding: 1px;
+  object-fit: cover;
+}
+
+.boton-1 {
+  padding: 20px;
+  padding-top: 55px;
+}
+
+.boton-2 {
+  padding: 20px;
+  padding-top: 50px;
+  margin-right: 60em;
+  margin-left: 12em;
+  padding-right: 70px;
+}
+
+.boton-3 {
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.boton-4 {
+  padding: 30px;
+  padding-top: 75px;
+}
+
+.boton-5 {
+  padding: 30px;
+  padding-top: 25px;
+}
+
 @media screen and (max-width: 700px) {
   header {
     background: url(../Img/img-potada-ob.jpg);
@@ -649,7 +701,7 @@ form .form-control {
   header .portada-flex {
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 50px 50;
   }
   header .portada-flex p {
     padding: 3px 0;
@@ -719,8 +771,9 @@ form .form-control {
     background-size: cover;
     height: 80vh;
     width: 100%;
-    background: white;
-    padding: 120px;
+    background: black;
+    color: black;
+    padding: 100px;
     grid-column: 1;
   }
   .imagen-2 {
@@ -729,9 +782,9 @@ form .form-control {
     background-size: cover;
     height: 80vh;
     width: 100%;
-    padding: 120px;
-    background: black;
-    color: white;
+    padding: 100px;
+    background: white;
+    color: black;
     grid-column: 1;
   }
   .imagen-3 {
@@ -741,7 +794,7 @@ form .form-control {
     height: 80vh;
     float: right;
     width: 100%;
-    padding: 120px;
+    padding: 100px;
     background: white;
     color: black;
   }
@@ -751,7 +804,7 @@ form .form-control {
     background-size: cover;
     height: 80vh;
     width: 100%;
-    padding: 120px;
+    padding: 100px;
     background: black;
     color: white;
     padding-top: 100px;
@@ -762,6 +815,10 @@ form .form-control {
   /*Comienza catalogo*/
   .titulo-2 {
     visibility: hidden;
+  }
+  .parrafo {
+    text-align: center;
+    padding: 50px 20px;
   }
   .img-catalogo {
     height: 80vh;
@@ -895,7 +952,7 @@ form .form-control {
   #presupuesto {
     background: black;
     color: white;
-    text-align: center;
+    text-align: left;
   }
   .Encargo-demora-bk {
     width: 100%;
@@ -998,9 +1055,9 @@ form .form-control {
   }
   #showcase .titulo {
     text-align: center;
-    font-weight: 500;
-    padding-top: 50px;
-    padding-right: 10px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-right: 5px;
     color: #051b31;
   }
   #showcase .container-1 {
@@ -1061,7 +1118,7 @@ img {
   width: 50%;
   padding: 95px;
   background: black;
-  color: white;
+  color: black;
 }
 
 .imagen-3 {
@@ -1085,7 +1142,7 @@ img {
   width: 50%;
   padding: 95px;
   background: black;
-  color: white;
+  color: black;
 }
 
 .parrafo {
@@ -1093,21 +1150,6 @@ img {
   text-align: center;
 }
 
-@media screen and (min-width: 600px) {
-  .main {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 50%);
-  }
-  .boton-1 {
-    align-items: center;
-    padding-left: 50px;
-    padding-bottom: 5px;
-  }
-  .boton-2 {
-    align-items: center;
-    padding-left: 150px;
-  }
-}
 /*Comienza stock*/
 img {
   width: 100%;
@@ -1126,7 +1168,8 @@ img {
   float: left;
   width: 50%;
   background: white;
-  padding: 110px;
+  color: black;
+  padding: 100px;
 }
 
 .imagen-2 {
@@ -1168,6 +1211,11 @@ img {
 .parrafo {
   align-items: center;
   text-align: center;
+}
+
+.parrafo {
+  text-align: center;
+  padding: 50px 20px;
 }
 
 .img-catalogo {
@@ -1334,11 +1382,30 @@ img {
 }
 
 .boton-1 {
-  margin-left: 0;
+  padding: 20px;
+  padding-top: 55px;
 }
 
 .boton-2 {
-  margin-left: 20px;
+  padding: 20px;
+  padding-top: 50px;
+  margin-left: 8em;
+  padding-right: 70px;
+}
+
+.boton-3 {
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.boton-4 {
+  padding: 30px;
+  padding-top: 75px;
+}
+
+.boton-5 {
+  padding: 30px;
+  padding-top: 25px;
 }
 
 #presupuesto {
@@ -1505,6 +1572,48 @@ form .form-control {
     padding-left: 300px;
   }
 }
+.img-catalogo {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: repeat(3, 25%);
+  height: 100vh;
+}
+.img-catalogo img {
+  width: 100%;
+  height: 100%;
+  padding: 1px;
+  object-fit: cover;
+}
+
+.boton-1 {
+  padding: 20px;
+  padding-top: 55px;
+}
+
+.boton-2 {
+  padding: 20px;
+  padding-top: 50px;
+  margin-right: 60em;
+  margin-left: 12em;
+  padding-right: 70px;
+}
+
+.boton-3 {
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.boton-4 {
+  padding: 30px;
+  padding-top: 75px;
+}
+
+.boton-5 {
+  padding: 30px;
+  padding-top: 25px;
+}
+
 @media screen and (max-width: 700px) {
   header {
     background: url(../Img/img-potada-ob.jpg);
@@ -1519,7 +1628,7 @@ form .form-control {
   header .portada-flex {
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 50px 50;
   }
   header .portada-flex p {
     padding: 3px 0;
@@ -1589,8 +1698,9 @@ form .form-control {
     background-size: cover;
     height: 80vh;
     width: 100%;
-    background: white;
-    padding: 120px;
+    background: black;
+    color: black;
+    padding: 100px;
     grid-column: 1;
   }
   .imagen-2 {
@@ -1599,9 +1709,9 @@ form .form-control {
     background-size: cover;
     height: 80vh;
     width: 100%;
-    padding: 120px;
-    background: black;
-    color: white;
+    padding: 100px;
+    background: white;
+    color: black;
     grid-column: 1;
   }
   .imagen-3 {
@@ -1611,7 +1721,7 @@ form .form-control {
     height: 80vh;
     float: right;
     width: 100%;
-    padding: 120px;
+    padding: 100px;
     background: white;
     color: black;
   }
@@ -1621,7 +1731,7 @@ form .form-control {
     background-size: cover;
     height: 80vh;
     width: 100%;
-    padding: 120px;
+    padding: 100px;
     background: black;
     color: white;
     padding-top: 100px;
@@ -1632,6 +1742,10 @@ form .form-control {
   /*Comienza catalogo*/
   .titulo-2 {
     visibility: hidden;
+  }
+  .parrafo {
+    text-align: center;
+    padding: 50px 20px;
   }
   .img-catalogo {
     height: 80vh;
@@ -1765,7 +1879,7 @@ form .form-control {
   #presupuesto {
     background: black;
     color: white;
-    text-align: center;
+    text-align: left;
   }
   .Encargo-demora-bk {
     width: 100%;
@@ -1868,9 +1982,9 @@ form .form-control {
   }
   #showcase .titulo {
     text-align: center;
-    font-weight: 500;
-    padding-top: 50px;
-    padding-right: 10px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-right: 5px;
     color: #051b31;
   }
   #showcase .container-1 {
@@ -2068,26 +2182,6 @@ body {
   font-size: 10px;
 }
 
-.boton-2 {
-  padding-right: 20px;
-  padding: 0 0 20px;
-}
-
-@media screen and (min-width: 600px) {
-  .main {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 50%);
-  }
-  .boton-1 {
-    align-items: center;
-    padding-left: 50px;
-    padding-bottom: 5px;
-  }
-  .boton-2 {
-    align-items: center;
-    padding-left: 150px;
-  }
-}
 /*Comienza stock*/
 img {
   width: 100%;
@@ -2106,7 +2200,8 @@ img {
   float: left;
   width: 50%;
   background: white;
-  padding: 110px;
+  color: black;
+  padding: 100px;
 }
 
 .imagen-2 {
@@ -2148,6 +2243,11 @@ img {
 .parrafo {
   align-items: center;
   text-align: center;
+}
+
+.parrafo {
+  text-align: center;
+  padding: 50px 20px;
 }
 
 .img-catalogo {
@@ -2314,11 +2414,30 @@ img {
 }
 
 .boton-1 {
-  margin-left: 0;
+  padding: 20px;
+  padding-top: 55px;
 }
 
 .boton-2 {
-  margin-left: 20px;
+  padding: 20px;
+  padding-top: 50px;
+  margin-left: 8em;
+  padding-right: 70px;
+}
+
+.boton-3 {
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.boton-4 {
+  padding: 30px;
+  padding-top: 75px;
+}
+
+.boton-5 {
+  padding: 30px;
+  padding-top: 25px;
 }
 
 #presupuesto {
@@ -2485,6 +2604,48 @@ form .form-control {
     padding-left: 300px;
   }
 }
+.img-catalogo {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: repeat(3, 25%);
+  height: 100vh;
+}
+.img-catalogo img {
+  width: 100%;
+  height: 100%;
+  padding: 1px;
+  object-fit: cover;
+}
+
+.boton-1 {
+  padding: 20px;
+  padding-top: 55px;
+}
+
+.boton-2 {
+  padding: 20px;
+  padding-top: 50px;
+  margin-right: 60em;
+  margin-left: 12em;
+  padding-right: 70px;
+}
+
+.boton-3 {
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.boton-4 {
+  padding: 30px;
+  padding-top: 75px;
+}
+
+.boton-5 {
+  padding: 30px;
+  padding-top: 25px;
+}
+
 @media screen and (max-width: 700px) {
   header {
     background: url(../Img/img-potada-ob.jpg);
@@ -2499,7 +2660,7 @@ form .form-control {
   header .portada-flex {
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 50px 50;
   }
   header .portada-flex p {
     padding: 3px 0;
@@ -2569,8 +2730,9 @@ form .form-control {
     background-size: cover;
     height: 80vh;
     width: 100%;
-    background: white;
-    padding: 120px;
+    background: black;
+    color: black;
+    padding: 100px;
     grid-column: 1;
   }
   .imagen-2 {
@@ -2579,9 +2741,9 @@ form .form-control {
     background-size: cover;
     height: 80vh;
     width: 100%;
-    padding: 120px;
-    background: black;
-    color: white;
+    padding: 100px;
+    background: white;
+    color: black;
     grid-column: 1;
   }
   .imagen-3 {
@@ -2591,7 +2753,7 @@ form .form-control {
     height: 80vh;
     float: right;
     width: 100%;
-    padding: 120px;
+    padding: 100px;
     background: white;
     color: black;
   }
@@ -2601,7 +2763,7 @@ form .form-control {
     background-size: cover;
     height: 80vh;
     width: 100%;
-    padding: 120px;
+    padding: 100px;
     background: black;
     color: white;
     padding-top: 100px;
@@ -2612,6 +2774,10 @@ form .form-control {
   /*Comienza catalogo*/
   .titulo-2 {
     visibility: hidden;
+  }
+  .parrafo {
+    text-align: center;
+    padding: 50px 20px;
   }
   .img-catalogo {
     height: 80vh;
@@ -2745,7 +2911,7 @@ form .form-control {
   #presupuesto {
     background: black;
     color: white;
-    text-align: center;
+    text-align: left;
   }
   .Encargo-demora-bk {
     width: 100%;
@@ -2848,9 +3014,9 @@ form .form-control {
   }
   #showcase .titulo {
     text-align: center;
-    font-weight: 500;
-    padding-top: 50px;
-    padding-right: 10px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-right: 5px;
     color: #051b31;
   }
   #showcase .container-1 {
@@ -2902,6 +3068,7 @@ form .form-control {
   float: left;
   width: 50%;
   padding: 50px;
+  text-align: center;
 }
 .text h3 {
   text-align: center;
@@ -2917,6 +3084,7 @@ form .form-control {
   float: left;
   width: 50%;
   padding: 50px;
+  text-align: center;
   background: black;
   color: white;
 }
@@ -2950,21 +3118,6 @@ form .form-control {
   float: right;
 }
 
-@media screen and (min-width: 600px) {
-  .main {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 50%);
-  }
-  .boton-1 {
-    align-items: center;
-    padding-left: 50px;
-    padding-bottom: 5px;
-  }
-  .boton-2 {
-    align-items: center;
-    padding-left: 150px;
-  }
-}
 /*Comienza stock*/
 img {
   width: 100%;
@@ -2983,7 +3136,8 @@ img {
   float: left;
   width: 50%;
   background: white;
-  padding: 110px;
+  color: black;
+  padding: 100px;
 }
 
 .imagen-2 {
@@ -3025,6 +3179,11 @@ img {
 .parrafo {
   align-items: center;
   text-align: center;
+}
+
+.parrafo {
+  text-align: center;
+  padding: 50px 20px;
 }
 
 .img-catalogo {
@@ -3191,11 +3350,30 @@ img {
 }
 
 .boton-1 {
-  margin-left: 0;
+  padding: 20px;
+  padding-top: 55px;
 }
 
 .boton-2 {
-  margin-left: 20px;
+  padding: 20px;
+  padding-top: 50px;
+  margin-left: 8em;
+  padding-right: 70px;
+}
+
+.boton-3 {
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.boton-4 {
+  padding: 30px;
+  padding-top: 75px;
+}
+
+.boton-5 {
+  padding: 30px;
+  padding-top: 25px;
 }
 
 #presupuesto {
@@ -3362,6 +3540,48 @@ form .form-control {
     padding-left: 300px;
   }
 }
+.img-catalogo {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: repeat(3, 25%);
+  height: 100vh;
+}
+.img-catalogo img {
+  width: 100%;
+  height: 100%;
+  padding: 1px;
+  object-fit: cover;
+}
+
+.boton-1 {
+  padding: 20px;
+  padding-top: 55px;
+}
+
+.boton-2 {
+  padding: 20px;
+  padding-top: 50px;
+  margin-right: 60em;
+  margin-left: 12em;
+  padding-right: 70px;
+}
+
+.boton-3 {
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.boton-4 {
+  padding: 30px;
+  padding-top: 75px;
+}
+
+.boton-5 {
+  padding: 30px;
+  padding-top: 25px;
+}
+
 @media screen and (max-width: 700px) {
   header {
     background: url(../Img/img-potada-ob.jpg);
@@ -3376,7 +3596,7 @@ form .form-control {
   header .portada-flex {
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 50px 50;
   }
   header .portada-flex p {
     padding: 3px 0;
@@ -3446,8 +3666,9 @@ form .form-control {
     background-size: cover;
     height: 80vh;
     width: 100%;
-    background: white;
-    padding: 120px;
+    background: black;
+    color: black;
+    padding: 100px;
     grid-column: 1;
   }
   .imagen-2 {
@@ -3456,9 +3677,9 @@ form .form-control {
     background-size: cover;
     height: 80vh;
     width: 100%;
-    padding: 120px;
-    background: black;
-    color: white;
+    padding: 100px;
+    background: white;
+    color: black;
     grid-column: 1;
   }
   .imagen-3 {
@@ -3468,7 +3689,7 @@ form .form-control {
     height: 80vh;
     float: right;
     width: 100%;
-    padding: 120px;
+    padding: 100px;
     background: white;
     color: black;
   }
@@ -3478,7 +3699,7 @@ form .form-control {
     background-size: cover;
     height: 80vh;
     width: 100%;
-    padding: 120px;
+    padding: 100px;
     background: black;
     color: white;
     padding-top: 100px;
@@ -3489,6 +3710,10 @@ form .form-control {
   /*Comienza catalogo*/
   .titulo-2 {
     visibility: hidden;
+  }
+  .parrafo {
+    text-align: center;
+    padding: 50px 20px;
   }
   .img-catalogo {
     height: 80vh;
@@ -3622,7 +3847,7 @@ form .form-control {
   #presupuesto {
     background: black;
     color: white;
-    text-align: center;
+    text-align: left;
   }
   .Encargo-demora-bk {
     width: 100%;
@@ -3725,9 +3950,9 @@ form .form-control {
   }
   #showcase .titulo {
     text-align: center;
-    font-weight: 500;
-    padding-top: 50px;
-    padding-right: 10px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-right: 5px;
     color: #051b31;
   }
   #showcase .container-1 {
@@ -3799,7 +4024,7 @@ form .form-control {
   padding: 7px 12px;
   line-height: 1.5;
   font-size: 1rem;
-  background-color: white;
+  background-color: black;
   border: 1px solid #ced4da;
   border-radius: 4px;
 }
@@ -3841,21 +4066,6 @@ form .form-control {
   padding-left: 20px;
 }
 
-@media screen and (min-width: 600px) {
-  .main {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 50%);
-  }
-  .boton-1 {
-    align-items: center;
-    padding-left: 50px;
-    padding-bottom: 5px;
-  }
-  .boton-2 {
-    align-items: center;
-    padding-left: 150px;
-  }
-}
 /*Comienza stock*/
 img {
   width: 100%;
@@ -3874,7 +4084,8 @@ img {
   float: left;
   width: 50%;
   background: white;
-  padding: 110px;
+  color: black;
+  padding: 100px;
 }
 
 .imagen-2 {
@@ -3916,6 +4127,11 @@ img {
 .parrafo {
   align-items: center;
   text-align: center;
+}
+
+.parrafo {
+  text-align: center;
+  padding: 50px 20px;
 }
 
 .img-catalogo {
@@ -4082,11 +4298,30 @@ img {
 }
 
 .boton-1 {
-  margin-left: 0;
+  padding: 20px;
+  padding-top: 55px;
 }
 
 .boton-2 {
-  margin-left: 20px;
+  padding: 20px;
+  padding-top: 50px;
+  margin-left: 8em;
+  padding-right: 70px;
+}
+
+.boton-3 {
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.boton-4 {
+  padding: 30px;
+  padding-top: 75px;
+}
+
+.boton-5 {
+  padding: 30px;
+  padding-top: 25px;
 }
 
 #presupuesto {
@@ -4253,6 +4488,48 @@ form .form-control {
     padding-left: 300px;
   }
 }
+.img-catalogo {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: repeat(3, 25%);
+  height: 100vh;
+}
+.img-catalogo img {
+  width: 100%;
+  height: 100%;
+  padding: 1px;
+  object-fit: cover;
+}
+
+.boton-1 {
+  padding: 20px;
+  padding-top: 55px;
+}
+
+.boton-2 {
+  padding: 20px;
+  padding-top: 50px;
+  margin-right: 60em;
+  margin-left: 12em;
+  padding-right: 70px;
+}
+
+.boton-3 {
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.boton-4 {
+  padding: 30px;
+  padding-top: 75px;
+}
+
+.boton-5 {
+  padding: 30px;
+  padding-top: 25px;
+}
+
 @media screen and (max-width: 700px) {
   header {
     background: url(../Img/img-potada-ob.jpg);
@@ -4267,7 +4544,7 @@ form .form-control {
   header .portada-flex {
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 50px 50;
   }
   header .portada-flex p {
     padding: 3px 0;
@@ -4337,8 +4614,9 @@ form .form-control {
     background-size: cover;
     height: 80vh;
     width: 100%;
-    background: white;
-    padding: 120px;
+    background: black;
+    color: black;
+    padding: 100px;
     grid-column: 1;
   }
   .imagen-2 {
@@ -4347,9 +4625,9 @@ form .form-control {
     background-size: cover;
     height: 80vh;
     width: 100%;
-    padding: 120px;
-    background: black;
-    color: white;
+    padding: 100px;
+    background: white;
+    color: black;
     grid-column: 1;
   }
   .imagen-3 {
@@ -4359,7 +4637,7 @@ form .form-control {
     height: 80vh;
     float: right;
     width: 100%;
-    padding: 120px;
+    padding: 100px;
     background: white;
     color: black;
   }
@@ -4369,7 +4647,7 @@ form .form-control {
     background-size: cover;
     height: 80vh;
     width: 100%;
-    padding: 120px;
+    padding: 100px;
     background: black;
     color: white;
     padding-top: 100px;
@@ -4380,6 +4658,10 @@ form .form-control {
   /*Comienza catalogo*/
   .titulo-2 {
     visibility: hidden;
+  }
+  .parrafo {
+    text-align: center;
+    padding: 50px 20px;
   }
   .img-catalogo {
     height: 80vh;
@@ -4513,7 +4795,7 @@ form .form-control {
   #presupuesto {
     background: black;
     color: white;
-    text-align: center;
+    text-align: left;
   }
   .Encargo-demora-bk {
     width: 100%;
@@ -4616,9 +4898,9 @@ form .form-control {
   }
   #showcase .titulo {
     text-align: center;
-    font-weight: 500;
-    padding-top: 50px;
-    padding-right: 10px;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-right: 5px;
     color: #051b31;
   }
   #showcase .container-1 {

@@ -2,7 +2,7 @@
 
 /*Comienza catalogo*/
 body{
-    background: white;
+    background:$background-universal-w;
 }
    .img-catalogo{
     display: grid; 
@@ -144,7 +144,7 @@ body{
         font-weight:300;
         letter-spacing: 1px;
         border-radius: 30px;
-        color: black;
+        color: $color-tipografia;
         background:#ced4da;
         &-dark{
             border: none;
@@ -153,10 +153,7 @@ body{
 
     }
      
-     .boton-2{
-        padding-right: 20px;
-        padding: 0 0 20px;
-     }
+    
 
 
 @import "_mq-tablet.scss";

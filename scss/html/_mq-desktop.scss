@@ -13,3 +13,43 @@
         padding-left: 300px ;
     }
 }
+
+//catalogo
+.img-catalogo{
+    display: grid; 
+    padding: 20px;
+    grid-template-columns: repeat(3, 25%); 
+    grid-template-rows: repeat(3, 25%);
+    height: 100vh;
+    img{
+       width: 100%; 
+       height: 100%;
+       padding: 1px;
+       object-fit:cover;
+    }  
+    }
+.boton-1{
+    padding: 20px;
+    padding-top: 55px
+  }
+.boton-2{
+    padding: 20px;
+    padding-top: 50px;
+    margin-right: 60em;
+    margin-left: 12em;
+    padding-right: 70px;
+} 
+.boton-3{
+    padding: 20px;
+    padding-top: 50px;
+}
+
+.boton-4{
+    padding: 30px;
+    padding-top: 75px
+  }
+
+  .boton-5{
+    padding: 30px;
+    padding-top: 25px
+  }

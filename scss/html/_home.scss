@@ -15,7 +15,7 @@ header{
       
     }
     .portada-flex{
-     color: white;
+     color: $color-tipografia-w;
      text-align:center;   
      padding: 250px 150px;
      
@@ -30,7 +30,7 @@ header{
         justify-content:space-between;
         align-items: center;
         .siderbar{
-            background: black;
+            background: $background-universal-b;
             color: whitesmoke;
         }
         .navbar-toggler{

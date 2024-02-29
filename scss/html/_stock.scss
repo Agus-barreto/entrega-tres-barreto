@@ -31,8 +31,8 @@ height: 100vh;
 float: right;
 width: 50%;
 padding: 95px;
-background: black;
-color: white;
+background: $background-universal-b;
+color: $color-tipografia;
 }
 
 .imagen-3{
@@ -43,8 +43,8 @@ color: white;
   float: right;
   width: 50%;
   padding: 95px;
-  background: white;
-  color: black;
+  background: $background-universal-w;
+  color: $color-tipografia;
   }
 
   .imagen-4{
@@ -55,8 +55,8 @@ color: white;
     float: right;
     width: 50%;
     padding: 95px;
-    background:black ;
-    color: white;
+    background: $background-universal-b;
+    color: $color-tipografia;
     }
 
 .parrafo{

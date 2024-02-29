@@ -12,9 +12,9 @@
           
         }
         .portada-flex{
-         color: white;
+         color: $color-tipografia-w;
          text-align:center;   
-         padding: 20px ;
+         padding: 50px 50 ;
          
          p{
            padding: 3px 0;
@@ -93,8 +93,9 @@
       background-size: cover;
       height: 80vh;
       width: 100%;
-      background: white;
-      padding: 120px;
+      background: $background-universal-b;
+      color: $color-tipografia;
+      padding: 100px;
       grid-column: 1;
       
     }
@@ -107,9 +108,9 @@
     background-size: cover;
     height: 80vh;
     width: 100%;
-    padding: 120px;
-    background: black;
-    color: white;
+    padding: 100px;
+    background: $background-universal-w;
+    color: $color-tipografia;
     grid-column: 1;
     }
     
@@ -120,9 +121,9 @@
       height: 80vh;
       float: right;
       width: 100%;
-      padding: 120px;
-      background: white;
-      color: black;
+      padding: 100px;
+      background: $background-universal-w;
+      color: $color-tipografia;
       }
     
       .imagen-4{
@@ -131,9 +132,9 @@
         background-size: cover;
         height: 80vh;
         width: 100%;
-        padding: 120px;
-        background:black ;
-        color: white;
+        padding: 100px;
+        background: $background-universal-b;
+        color: $color-tipografia-w;
         padding-top: 100px;
         }
     
@@ -144,6 +145,10 @@
     /*Comienza catalogo*/
     .titulo-2{
         visibility: hidden;
+    }
+    .parrafo{
+        text-align: center;
+        padding: 50px 20px;
     }
     .img-catalogo{
         height: 80vh;
@@ -288,7 +293,7 @@
     #presupuesto{
         background: $background-universal-b;
         color: $color-tipografia-w;
-        text-align: center;
+        text-align: left;
     }
     .Encargo-demora-bk{
         width: 100%;
@@ -410,9 +415,9 @@
         padding-top: 10px;
         .titulo{
             text-align: center;
-            font-weight: 500;
-            padding-top: 50px;
-            padding-right: 10px;
+            font-weight: 700;
+            padding-top: 20px;
+            padding-right: 5px;
             color:  #051b31;
         }
         .container-1{
