@@ -7,58 +7,63 @@
     height: 100%;
   }
 
-  #producto-stock{
+  #producto{
     height: 100vh;
-    background: $background-universal-w;
-}
-.imagen-stock-1{
-    float: left;
-    width: 100%;
-    background: $background-universal-w;
-    height: 100%;
-    text-align: center;
-    padding: 200px 160px;
-}
-#productos-stock2{
-    height: 100vh;
-    background: $background-universal-b;
-}
-.imagen-stock-2{
-    float: left;
-    width: 100%;
-    background: $background-universal-b;
-    color: $color-tipografia-w;
-    height: 50%;
-    padding: 200px 160px;
-}
+  }  
 
-#productos-stock3{
-    height: 100vh;
-    background: $background-universal-b;
-}
-
-#productos-stock3{
-    height: 100vh;
-    background: $background-universal-b;
-}
-.imagen-stock-3{
-    float: left;
-    width: 100%;
-    background: $background-universal-b;
-    color: $color-tipografia-w;
-    height: 100vh;
-    padding: 200px 160px;
-}
-
-.imagen-stock-4{
-    float: left;
-    width: 100%;
-    background: $background-universal-w;
-    height: 100vh;
-    padding: 100px 160px;
+.imagen-1{
+  background: url(../Img/img-s-mesa-resina.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  float: left;
+  width: 50%;
+  background: white;
+  padding: 95px;
 }
 
 
+.imagen-2{
+background: url(../Img/img-s-bancos.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+float: right;
+width: 50%;
+padding: 95px;
+background: black;
+color: white;
+}
+
+.imagen-3{
+  background: url(../Img/img-rack.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  float: right;
+  width: 50%;
+  padding: 95px;
+  background: white;
+  color: black;
+  }
+
+  .imagen-4{
+    background: url(../Img/img-s-mesa.ratona-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    float: right;
+    width: 50%;
+    padding: 95px;
+    background:black ;
+    color: white;
+    }
+
+.parrafo{
+  align-items: center;
+  text-align: center
+  
+}
 @import "_mq-tablet.scss";
 @import "_mq-desktop.scss";
-@import "_mq-mobie.scss";
+@import "_mq-mobile.scss";

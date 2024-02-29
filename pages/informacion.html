@@ -11,8 +11,31 @@
 <body>
     <header>
 
-        <nav>
-          <ul class="nav justify-content-end">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="logo"><a href="../index.html"><p class="p-logo">M.G MUEBLES INDUSTRIALES</p></a></div>
+        <button 
+        class="navbar-toggler" type="button" 
+        data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" 
+        aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="offcanvas offcanvas-end" 
+        tabindex="-1" id="navbarOffcanvasLg" 
+        aria-labelledby="navbarOffcanvasLgLabel">
+        <div class="offcanvas-header text-black border-bottom">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> M.G MUEBLES INDUSTRIALES 
+          </h5>
+         <button
+         type="button"
+         class="btn-close btn-close-black shadow-none "
+         data-bs-dismiss="offcanvas"
+         aria-label="close"> 
+        </button>
+        </div>
+        
+        <div class="menu">
+         <ul class="nav justify-content-end flex-grow-1 ">
                 <li class="nav-item">
                   <a class="nav-link" aria-current="page" href="../index.html">
                     HOME
@@ -52,13 +75,15 @@
        </header>  
 <!-- creacion de titulos o subtitulos h, del h2 al h6 -->
 <main>
-    <h2> Info que necesitas saber antes de encargar </h2>
-    
+    <h2 class="display-1"> Información que necesitas saber antes de encargar </h2>
+    <div id="informacion">
+
+   
     <section id="presupuesto">
-    <div class="Encargo-demora-bk"></div>    
+    <div class="Encargo-demora-bk"></div>
     <div class="text">
     <div class="container">
-       <h3 class="display-1">PRESUPUESTO:</h3>
+       <h3 class="display-2">PRESUPUESTO:</h3>
       <p>El presupuesto varia segun el tipo de madera, materiales(como espesor del hierro y espesor de la madera), segun las caracteristicas del mueble (si tiene cajones o puertas o accesorios como malla metalicas)</p>
       </div> 
       </div>
@@ -67,7 +92,7 @@
 
       <section id="Pago">
         <div class="text-titulo">
-        <h4 class="display-1">PAGO:</h4>
+        <h4 class="display-2">PAGO:</h4>
           <div class="pago-text">
           <p>No exigimos pago por adelantado (excepto que nos encarges más de dos muebles)
           El pago se hace cuando nos contactemos para avisarles que su pedido esta listo! Se puede realizar por trasferencia Brou, itau, prex. También contamos con mercado pago con posibilidad de poder abonar hasta en 12 o 10 cuotas con todas las tarjetas de credito, tambien pudiendo abonar desde alli con debito. Las compras por mercado pago tienen un incremento del 5%.</p>
@@ -76,14 +101,15 @@
     </section>
     <section id="Informacion-de-envios">
         <div class="text-informacion">
-        <h5 class="display-1"> INFORMACÍON DE ENVIOS</h5>
+        <h5 class="display-2"> INFORMACÍON DE ENVIOS</h5>
           
        <p>Los envios se realizan una vez que se nos efectue el pago completo.</p>
       <p>Se realizan por las cadeterias de preferencias . Las demoras varias dependiendo de cada empresa.</p>
        <p>Los envíos se realizan de lunes a viernes.</p>
        <p>ENVÍOS A TODO EL PAÍS!!</p>
     
-      </div>
+      </div> 
+    </div>
     </section>
   
    
@@ -93,18 +119,30 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 <section class="footer">
-  <h3>COMUNICATE CON NOSOTROS!</h3>
+  <h3 class="display-3">COMUNICATE CON NOSOTROS!</h3>
   <div class="contacto-redes">
     
-      <a  class="boton" href="#">Contactanos vía Whatsapp</a>
-      <a  class="boton" href="#">Contactanos vía Instagram</a>
-      <a  class="boton" href="#">Contactanos vía Facebook</a>
+    <button class="btn btn-redes">
+      <a class="boton" href="https://www.instagram.com/mgcreaciones_enmaderayhierro?igsh=MWcxMGxzbnMyaTEyaQ%3D%3D&utm_source=qr"><i class="bi bi-instagram"></i><img src="../Img/instagram.svg" alt=""></a>
+    </button>
+  
+    <button class="btn btn-redes">
+      <a class="boton" href="https://www.facebook.com/profile.php?id=100089753965880&mibextid=JRoKGi"><i class="bi bi-facebook"></i> <img src="../Img/facebook.svg" alt=""></a>
+    </button>
+      
+  
+    <button class="btn btn-redes">
+      <a class="boton" href="https://www.tiktok.com/@maderahierro?_t=8kElLBIwamb&_r=1"><i class="bi bi-tiktok"></i> <img src="../Img/tiktok.svg" alt=""></a>
+    </button>
     
+    <button class="btn btn-redes">
+      <a class="boton" href="https://www.tiktok.com/@maderahierro?_t=8kElLBIwamb&_r=1"><i class="bi bi-whatsapp"></i> <img src="../Img/whatsapp.svg" alt=""></a>
+    </button>
     
     <div>
       <small class="texto"> &copy;2024 <b>M.G</b> - Todos los derechos  reservados</small>
     </div>
-    
+  
   </section>
 
 </body>

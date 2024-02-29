@@ -9,15 +9,19 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    .container{
+        display: flex;
+        justify-content: center;
+      
+    }
     .portada-flex{
      color: white;
      text-align:center;   
-     padding: 40px 80px;
-     font-size: 2rem;
+     padding: 250px 150px;
      
      p{
        padding: 10px 0;
-       font-size: 1rem;
+       font-weight: 500;
      }
     }
 }    
@@ -25,34 +29,67 @@ header{
         display: flex;
         justify-content:space-between;
         align-items: center;
-        .logo-img{
-           height: 40%;
-           width: 40%;
+        .siderbar{
+            background: black;
+            color: whitesmoke;
         }
-  }        
+        .navbar-toggler{
+            padding: 10px;
+            
+        }
+        
+        .logo{
+          background: black;
+          padding-left: 30px;
+          .p-logo{
+            color: rgb(193, 199, 203);
+            font-weight: 900;
+            font-family: 'Montserrat, sans-serif' ;
+          }
+        }
+    }     
+
        ul{
         display: flex;
         list-style: none;
-        background-color: black;
-         
+        background: black;
+        
         li{
             margin-left: 10px;
             text-transform: uppercase; 
-            
-            .nav-link{
+              .nav-link{
                 color: rgb(193, 199, 203);
                 font-weight: 500;
-                font-family: 'Montserrat', sans-serif;
+                font-family: 'Montserrat, sans-serif';
                 text-align: center;
                 background: black;
                 height: 5vh; 
-                
-         }
-        }
-    }
+        }        
+       
+       } 
+    } 
+        
+        
+    
+
     .display-1{
         font-size: 3.5rem;
         font-weight: 900;
+        text-align: center;
+        font-family: 'IBM Plex Sans, sans-serif';
+    } 
+    .display-2{
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-align: center;
+        font-family: 'IBM Plex Sans, sans-serif';
+        padding: 2%;
+    } 
+    .display-3{
+        font-size: 1rem;
+        font-weight: 100;
+        text-align: center;
+        font-family: 'IBM Plex Sans, sans-serif';
     } 
     h1{
         font-size: 3rem;
@@ -60,7 +97,7 @@ header{
     }
     h2{
         font-size: 2.5rem;
-        align-items: center ;
+        align-items: center;
         font-family: 'Montserrat', sans-serif;
     }
     h3{
@@ -79,6 +116,10 @@ header{
         line-height: 1.9em;
         align-items: center ;
         font-family: 'Montserrat', sans-serif;
+    }
+    .p-parrafo{
+        text-align: center;
+        padding: 50px 20px;
     }
     a{
         text-decoration: none;
@@ -147,25 +188,30 @@ header{
     text-align: center; 
     text-decoration: none;
     text-decoration-style: none;
-    background: $background-footer;
-    color: $color-footer;
+    background: $background-universal-b;
+    color: whitesmoke;
+    padding: 15px;
 
-} 
-.boton{
+
+.btn{
     display: inline-block;
     font-size: 10px;
     padding: 10px 10px;
-    font-weight: 600;
+    font-weight: 900;
     letter-spacing: 1px;
     border-radius:5px;   
     cursor: pointer;  
-    background: $background-boton;
-    color: $color-tipografia
 }
-
+ 
+.btn-redes{
+    background: whitesmoke;
+    color: whitesmoke;
+    font-size: 10px
+}
+}
 
 
 
 @import "_mq-tablet.scss";
 @import "_mq-desktop.scss";
-@import "_mq-mobie.scss";
+@import "_mq-mobile.scss";

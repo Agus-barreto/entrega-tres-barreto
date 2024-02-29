@@ -3,4 +3,13 @@
         grid-template-columns: repeat(6, 1fr);
         grid-template-rows: repeat(4,25%);
     }
+    .boton-1{
+        align-items: center;
+        padding-left: 100px ;
+        padding-bottom: 5px;
+    }
+    .boton-2{
+        align-items: center;
+        padding-left: 300px ;
+    }
 }

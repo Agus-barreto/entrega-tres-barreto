@@ -27,44 +27,41 @@
     }
     }
     
-     
-    
-    #pagos{
-        height: 100vh;
+    #pago{
+        height: 100vh; 
     }
     
     .text-titulo{
         float: left;
         width: 50%;
+        padding: 50px; 
         background: $background-universal-b;
         color: $color-tipografia-w;
-        height: 100vh;
-        text-align: center;
-       
-    }
-    
-    .work-title h4{
-        padding-top: 160px;
-    }
-    
-    .pago-text{
-        background: $background-universal-b;
-        color: $color-tipografia-w;
-        float: right;
-    }
+        h4{
+            text-align: center;
+            padding-top: 180px;
+            padding-bottom: 20px;
+        }
+} 
+     
     
     
     #informacion-de-envios{
-        height: 100vh;
+        height: 100vh; 
     }
     
     .text-informacion{
         float: left;
         width: 50%;
+        padding: 50px; 
         background: $background-universal-w;
         color: $color-tipografia;
         text-align: center;
-        height: 100vh;
+        h5{
+            text-align: center;
+            padding-top: 180px;
+            padding-bottom: 20px;
+        }
     }
     .info-text{
         background: $background-universal-w;
@@ -75,4 +72,4 @@
     
 @import "_mq-tablet.scss";
 @import "_mq-desktop.scss";
-@import "_mq-mobie.scss";
+@import "_mq-mobile.scss";
