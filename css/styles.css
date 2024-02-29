@@ -933,9 +933,9 @@ form .form-control {
   .boton {
     display: grid;
     text-align: center;
-    font-size: 5px;
+    font-size: 10px;
     padding: 6px 6px;
-    font-weight: 300;
+    font-weight: bold;
     letter-spacing: 1px;
     border-radius: 30px;
     color: black;
@@ -1040,7 +1040,7 @@ form .form-control {
   .btn {
     display: inline-block;
     text-align: center;
-    font-size: 15px;
+    font-size: 100px;
     padding: 12px 12px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -1878,9 +1878,9 @@ form .form-control {
   .boton {
     display: grid;
     text-align: center;
-    font-size: 5px;
+    font-size: 10px;
     padding: 6px 6px;
-    font-weight: 300;
+    font-weight: bold;
     letter-spacing: 1px;
     border-radius: 30px;
     color: black;
@@ -1985,7 +1985,7 @@ form .form-control {
   .btn {
     display: inline-block;
     text-align: center;
-    font-size: 15px;
+    font-size: 100px;
     padding: 12px 12px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -2927,9 +2927,9 @@ form .form-control {
   .boton {
     display: grid;
     text-align: center;
-    font-size: 5px;
+    font-size: 10px;
     padding: 6px 6px;
-    font-weight: 300;
+    font-weight: bold;
     letter-spacing: 1px;
     border-radius: 30px;
     color: black;
@@ -3034,7 +3034,7 @@ form .form-control {
   .btn {
     display: inline-block;
     text-align: center;
-    font-size: 15px;
+    font-size: 100px;
     padding: 12px 12px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -3880,9 +3880,9 @@ form .form-control {
   .boton {
     display: grid;
     text-align: center;
-    font-size: 5px;
+    font-size: 10px;
     padding: 6px 6px;
-    font-weight: 300;
+    font-weight: bold;
     letter-spacing: 1px;
     border-radius: 30px;
     color: black;
@@ -3987,7 +3987,7 @@ form .form-control {
   .btn {
     display: inline-block;
     text-align: center;
-    font-size: 15px;
+    font-size: 100px;
     padding: 12px 12px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -4845,9 +4845,9 @@ form .form-control {
   .boton {
     display: grid;
     text-align: center;
-    font-size: 5px;
+    font-size: 10px;
     padding: 6px 6px;
-    font-weight: 300;
+    font-weight: bold;
     letter-spacing: 1px;
     border-radius: 30px;
     color: black;
@@ -4952,7 +4952,7 @@ form .form-control {
   .btn {
     display: inline-block;
     text-align: center;
-    font-size: 15px;
+    font-size: 100px;
     padding: 12px 12px;
     font-weight: bold;
     letter-spacing: 1px;
