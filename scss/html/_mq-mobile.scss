@@ -2,8 +2,8 @@
 
     //Home
     .display-1{
-        font-size: 1.5rem;
-        font-weight: 600;
+        font-size: 2.5rem;
+        font-weight: 300;
         text-align: center;
         align-items: center;
         font-family: 'IBM Plex Sans, sans-serif';
@@ -14,12 +14,12 @@
         align-items: center;
     }
     h2{
-        font-size: 2rem;
+        font-size: 1.5rem;
         align-items: center;
         font-family: 'Montserrat', sans-serif;
     }
     h3{
-        font-size: 1.5rem;
+        font-size: 1rem;
         align-items: center ;
         font-family: 'Montserrat', sans-serif;
     }
@@ -32,6 +32,13 @@
         font-size: 1rem;
         margin: 10px 0;
         line-height: 1.9em;
+        align-items: center ;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .p-1{
+        font-size: 1em;
+        margin: 10px 0;
+        line-height: 1.5em;
         align-items: center ;
         font-family: 'Montserrat', sans-serif;
     }
@@ -61,10 +68,10 @@
       background: url(../Img/img-s-mesa-resina.jpg);
       background-repeat: no-repeat;
       background-size: cover;
-      height: 100vh;
+      height: 80vh;
       width: 100%;
       background: white;
-      padding: 70px;
+      padding: 90px;
       grid-column: 1;
       
     }
@@ -75,9 +82,9 @@
     background: url(../Img/img-s-bancos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
-    padding: 70px;
+    padding: 90px;
     background: black;
     color: white;
     grid-column: 1;
@@ -87,10 +94,10 @@
       background: url(../Img/img-rack.jpg);
       background-repeat: no-repeat;
       background-size: cover;
-      height: 100vh;
+      height: 80vh;
       float: right;
       width: 100%;
-      padding: 70px;
+      padding: 90px;
       background: white;
       color: black;
       }
@@ -99,17 +106,15 @@
         background: url(../Img/img-s-mesa.ratona-2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 100vh;
-        float: right;
+        height: 80vh;
         width: 100%;
-        padding: 70px;
+        padding: 100px;
         background:black ;
         color: white;
         padding-top: 100px;
         }
     
     .parrafo{
-      align-items: center;
       text-align: center
       
     }
@@ -275,6 +280,7 @@
     .text{
         width: 100%;
         padding: 50px; 
+        text-align: center;
         h3{
        text-align: center;
        padding-top: 180px;
@@ -292,6 +298,7 @@
         padding: 50px; 
         background: $background-universal-b;
         color: $color-tipografia-w;
+        text-align: center;
         h4{
             text-align: center;
             padding-top: 180px;
