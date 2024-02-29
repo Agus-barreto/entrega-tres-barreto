@@ -701,7 +701,7 @@ form .form-control {
   header .portada-flex {
     color: white;
     text-align: center;
-    padding: 50px 50;
+    padding: 50px;
   }
   header .portada-flex p {
     padding: 3px 0;
@@ -771,7 +771,7 @@ form .form-control {
     background-size: cover;
     height: 80vh;
     width: 100%;
-    background: black;
+    background: white;
     color: black;
     padding: 100px;
     grid-column: 1;
@@ -783,8 +783,8 @@ form .form-control {
     height: 80vh;
     width: 100%;
     padding: 100px;
-    background: white;
-    color: black;
+    background: black;
+    color: white;
     grid-column: 1;
   }
   .imagen-3 {
@@ -944,7 +944,25 @@ form .form-control {
   }
   .boton-1 {
     padding: 20px;
-    padding-top: 10px;
+    padding-top: 48px;
+  }
+  .boton-2 {
+    padding: 20px;
+    padding-top: 50px;
+    margin-left: 8em;
+    padding-right: 70px;
+  }
+  .boton-3 {
+    padding: 20px;
+    padding-top: 45px;
+  }
+  .boton-4 {
+    padding: 30px;
+    padding-top: 75px;
+  }
+  .boton-5 {
+    padding: 30px;
+    padding-top: 15px;
   }
   #informacion {
     padding: 10px;
@@ -1106,6 +1124,7 @@ img {
   float: left;
   width: 50%;
   background: white;
+  color: black;
   padding: 95px;
 }
 
@@ -1118,7 +1137,7 @@ img {
   width: 50%;
   padding: 95px;
   background: black;
-  color: black;
+  color: white;
 }
 
 .imagen-3 {
@@ -1142,7 +1161,7 @@ img {
   width: 50%;
   padding: 95px;
   background: black;
-  color: black;
+  color: white;
 }
 
 .parrafo {
@@ -1628,7 +1647,7 @@ form .form-control {
   header .portada-flex {
     color: white;
     text-align: center;
-    padding: 50px 50;
+    padding: 50px;
   }
   header .portada-flex p {
     padding: 3px 0;
@@ -1698,7 +1717,7 @@ form .form-control {
     background-size: cover;
     height: 80vh;
     width: 100%;
-    background: black;
+    background: white;
     color: black;
     padding: 100px;
     grid-column: 1;
@@ -1710,8 +1729,8 @@ form .form-control {
     height: 80vh;
     width: 100%;
     padding: 100px;
-    background: white;
-    color: black;
+    background: black;
+    color: white;
     grid-column: 1;
   }
   .imagen-3 {
@@ -1871,7 +1890,25 @@ form .form-control {
   }
   .boton-1 {
     padding: 20px;
-    padding-top: 10px;
+    padding-top: 48px;
+  }
+  .boton-2 {
+    padding: 20px;
+    padding-top: 50px;
+    margin-left: 8em;
+    padding-right: 70px;
+  }
+  .boton-3 {
+    padding: 20px;
+    padding-top: 45px;
+  }
+  .boton-4 {
+    padding: 30px;
+    padding-top: 75px;
+  }
+  .boton-5 {
+    padding: 30px;
+    padding-top: 15px;
   }
   #informacion {
     padding: 10px;
@@ -2660,7 +2697,7 @@ form .form-control {
   header .portada-flex {
     color: white;
     text-align: center;
-    padding: 50px 50;
+    padding: 50px;
   }
   header .portada-flex p {
     padding: 3px 0;
@@ -2730,7 +2767,7 @@ form .form-control {
     background-size: cover;
     height: 80vh;
     width: 100%;
-    background: black;
+    background: white;
     color: black;
     padding: 100px;
     grid-column: 1;
@@ -2742,8 +2779,8 @@ form .form-control {
     height: 80vh;
     width: 100%;
     padding: 100px;
-    background: white;
-    color: black;
+    background: black;
+    color: white;
     grid-column: 1;
   }
   .imagen-3 {
@@ -2903,7 +2940,25 @@ form .form-control {
   }
   .boton-1 {
     padding: 20px;
-    padding-top: 10px;
+    padding-top: 48px;
+  }
+  .boton-2 {
+    padding: 20px;
+    padding-top: 50px;
+    margin-left: 8em;
+    padding-right: 70px;
+  }
+  .boton-3 {
+    padding: 20px;
+    padding-top: 45px;
+  }
+  .boton-4 {
+    padding: 30px;
+    padding-top: 75px;
+  }
+  .boton-5 {
+    padding: 30px;
+    padding-top: 15px;
   }
   #informacion {
     padding: 10px;
@@ -3596,7 +3651,7 @@ form .form-control {
   header .portada-flex {
     color: white;
     text-align: center;
-    padding: 50px 50;
+    padding: 50px;
   }
   header .portada-flex p {
     padding: 3px 0;
@@ -3666,7 +3721,7 @@ form .form-control {
     background-size: cover;
     height: 80vh;
     width: 100%;
-    background: black;
+    background: white;
     color: black;
     padding: 100px;
     grid-column: 1;
@@ -3678,8 +3733,8 @@ form .form-control {
     height: 80vh;
     width: 100%;
     padding: 100px;
-    background: white;
-    color: black;
+    background: black;
+    color: white;
     grid-column: 1;
   }
   .imagen-3 {
@@ -3839,7 +3894,25 @@ form .form-control {
   }
   .boton-1 {
     padding: 20px;
-    padding-top: 10px;
+    padding-top: 48px;
+  }
+  .boton-2 {
+    padding: 20px;
+    padding-top: 50px;
+    margin-left: 8em;
+    padding-right: 70px;
+  }
+  .boton-3 {
+    padding: 20px;
+    padding-top: 45px;
+  }
+  .boton-4 {
+    padding: 30px;
+    padding-top: 75px;
+  }
+  .boton-5 {
+    padding: 30px;
+    padding-top: 15px;
   }
   #informacion {
     padding: 10px;
@@ -4544,7 +4617,7 @@ form .form-control {
   header .portada-flex {
     color: white;
     text-align: center;
-    padding: 50px 50;
+    padding: 50px;
   }
   header .portada-flex p {
     padding: 3px 0;
@@ -4614,7 +4687,7 @@ form .form-control {
     background-size: cover;
     height: 80vh;
     width: 100%;
-    background: black;
+    background: white;
     color: black;
     padding: 100px;
     grid-column: 1;
@@ -4626,8 +4699,8 @@ form .form-control {
     height: 80vh;
     width: 100%;
     padding: 100px;
-    background: white;
-    color: black;
+    background: black;
+    color: white;
     grid-column: 1;
   }
   .imagen-3 {
@@ -4787,7 +4860,25 @@ form .form-control {
   }
   .boton-1 {
     padding: 20px;
-    padding-top: 10px;
+    padding-top: 48px;
+  }
+  .boton-2 {
+    padding: 20px;
+    padding-top: 50px;
+    margin-left: 8em;
+    padding-right: 70px;
+  }
+  .boton-3 {
+    padding: 20px;
+    padding-top: 45px;
+  }
+  .boton-4 {
+    padding: 30px;
+    padding-top: 75px;
+  }
+  .boton-5 {
+    padding: 30px;
+    padding-top: 15px;
   }
   #informacion {
     padding: 10px;
